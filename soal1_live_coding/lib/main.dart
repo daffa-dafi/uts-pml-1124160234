@@ -174,10 +174,24 @@ class ProfilePage extends StatelessWidget {
                           label: 'Hobi',
                           value: 'Mendaki, Berlari dan Travelling',
                         ),
+                      ],
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text('Terima kasih hehe salam kenal yak'),
+            ),
+          );
+        },
+        child: const Icon(Icons.info),
       ),
     );
   }
