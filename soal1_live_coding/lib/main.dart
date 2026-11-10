@@ -138,6 +138,12 @@ class ProfilePage extends StatelessWidget {
                           label: 'Kelas',
                           value: 'TI 24 SE SH',
                         ),
+                        Divider(height: 1),
+                        InfoTile(
+                          icon: Icons.code,
+                          label: 'GitHub',
+                          value: 'github.com/daffa-dafi',
+                        ),
                       ],
                     ),
                   ),
