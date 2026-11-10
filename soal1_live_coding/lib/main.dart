@@ -126,6 +126,12 @@ class ProfilePage extends StatelessWidget {
                           label: 'Email',
                           value: '1124160234@global.ac.id',
                         ),
+                        Divider(height: 1),
+                        InfoTile(
+                          icon: Icons.phone,
+                          label: 'Nomor HP',
+                          value: '089628793102',
+                        ),
                       ],
                     ),
                   ),
