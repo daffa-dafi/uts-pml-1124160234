@@ -168,6 +168,12 @@ class ProfilePage extends StatelessWidget {
                           label: 'Keahlian 2',
                           value: 'Database Basics',
                         ),
+                        Divider(height: 1),
+                        InfoTile(
+                          icon: Icons.sports_esports,
+                          label: 'Hobi',
+                          value: 'Mendaki, Berlari dan Travelling',
+                        ),
               ],
             ),
           ),
