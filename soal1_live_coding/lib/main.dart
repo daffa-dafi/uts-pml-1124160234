@@ -132,6 +132,12 @@ class ProfilePage extends StatelessWidget {
                           label: 'Nomor HP',
                           value: '089628793102',
                         ),
+                        Divider(height: 1),
+                        InfoTile(
+                          icon: Icons.class_,
+                          label: 'Kelas',
+                          value: 'TI 24 SE SH',
+                        ),
                       ],
                     ),
                   ),
