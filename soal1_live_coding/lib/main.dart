@@ -162,6 +162,12 @@ class ProfilePage extends StatelessWidget {
                           label: 'Keahlian 1',
                           value: 'Jago Flutter',
                         ),
+                        Divider(height: 1),
+                        InfoTile(
+                          icon: Icons.storage,
+                          label: 'Keahlian 2',
+                          value: 'Database Basics',
+                        ),
               ],
             ),
           ),
