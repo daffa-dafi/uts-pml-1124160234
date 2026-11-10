@@ -148,6 +148,20 @@ class ProfilePage extends StatelessWidget {
                     ),
                   ),
                 ),
+                const SizedBox(height: 16),
+
+                // --- Card Keahlian / Hobi (3 InfoTile) ---
+                Card(
+                  elevation: 2,
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 8.0),
+                    child: Column(
+                      children: const [
+                        InfoTile(
+                          icon: Icons.laptop_chromebook,
+                          label: 'Keahlian 1',
+                          value: 'Jago Flutter',
+                        ),
               ],
             ),
           ),
